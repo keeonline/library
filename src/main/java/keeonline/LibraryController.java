@@ -47,7 +47,7 @@ public class LibraryController {
     	return Products.getInstance();
     }
 
-    @PutMapping(path = "/books")
+    @PostMapping(path = "/books")
     public void addBooks(@RequestParam int copies,@RequestBody Book book) {
         for (int i=0 ; i<copies ; i++) {
             Books.getInstance().addCopies(book);
@@ -64,7 +64,7 @@ public class LibraryController {
         return Films.getInstance();
     }
 
-    @PutMapping(path = "/films")
+    @PostMapping(path = "/films")
     public void addFilms(@RequestParam int copies,@RequestBody Film film) {
         for (int i=0 ; i<copies ; i++) {
             Films.getInstance().addCopies(film);
@@ -81,7 +81,7 @@ public class LibraryController {
         return Customers.getInstance();
     }
 
-    @PutMapping(path = "/customers")
+    @PostMapping(path = "/customers")
     public void addCustomer(@RequestBody Customer customer) {
         Customers.getInstance().add(customer);
     }
@@ -96,7 +96,7 @@ public class LibraryController {
         return Loans.getInstance().getAllLoans();
     }
 
-    @PutMapping(path = "/loans")
+    @PostMapping(path = "/loans")
     public void newLoan(@RequestBody Loan loan) {
         Loans.getInstance().newLoan(loan);
     }
