@@ -44,6 +44,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>library</finalName>
 		<plugins>
 			<!-- Package as an executable jar/war -->
 			<plugin>
