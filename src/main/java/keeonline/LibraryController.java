@@ -82,8 +82,8 @@ public class LibraryController {
     }
 
     @PostMapping(path = "/customers")
-    public void addCustomer(@RequestBody Customer customer) {
-        Customers.getInstance().add(customer);
+    public Customer addCustomer(@RequestBody Customer customer) {
+        return Customers.getInstance().add(customer);
     }
 
     @DeleteMapping("/customers/{id}")
@@ -97,8 +97,8 @@ public class LibraryController {
     }
 
     @PostMapping(path = "/loans")
-    public void newLoan(@RequestBody Loan loan) {
-        Loans.getInstance().newLoan(loan);
+    public Loan newLoan(@RequestBody Loan loan) {
+        return Loans.getInstance().newLoan(loan);
     }
 
 }
