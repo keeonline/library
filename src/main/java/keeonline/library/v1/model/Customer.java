@@ -1,4 +1,4 @@
-package keeonline.model;
+package keeonline.library.v1.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

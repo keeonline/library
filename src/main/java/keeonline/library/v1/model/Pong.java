@@ -1,4 +1,4 @@
-package keeonline.model;
+package keeonline.library.v1.model;
 
 public final class Pong {
 	String message;

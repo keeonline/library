@@ -1,6 +1,4 @@
-package keeonline.model;
-
-import keeonline.model.Product.ProductType;
+package keeonline.library.v1.model;
 
 import java.util.ArrayList;
 import java.util.List;

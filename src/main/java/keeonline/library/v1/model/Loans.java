@@ -1,9 +1,4 @@
-package keeonline.model;
-
-import keeonline.model.Product.ProductType;
-
-import java.util.ArrayList;
-import java.util.List;
+package keeonline.library.v1.model;
 
 public class Loans {
 	private static Loans instance;
