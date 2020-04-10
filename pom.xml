@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>keeonline</groupId>
     <artifactId>library</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,7 +21,7 @@
         <connection>scm:git:https://github.com/keeonline/library.git</connection>
         <url>https://github.com/keeonline/library</url>
         <developerConnection>scm:git:https://github.com/keeonline/library.git</developerConnection>
-        <tag>v1.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
