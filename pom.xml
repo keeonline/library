@@ -19,6 +19,12 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://github.com/keeonline/library.git</connection>
+        <url>https://github.com/keeonline/library</url>
+        <developerConnection>scm:git:https://github.com/keeonline/library.git</developerConnection>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>releases</id>
